@@ -6,4 +6,3 @@ data class Customer(
     val pan: String,
     val passport: String
 )
-

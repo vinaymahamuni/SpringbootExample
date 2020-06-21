@@ -25,6 +25,7 @@ dependencies {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
 	testImplementation("io.mockk:mockk:1.8.9.kotlin13")
+	testImplementation("io.kotlintest:kotlintest-runner-junit5:3.1.10")
 }
 
 tasks.withType<Test> {
